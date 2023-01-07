@@ -1,0 +1,293 @@
+#content {max-width: 1600px; margin: 0 auto;}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: left;
+    color: #E7C24F;
+    text-decoration: none;
+    padding: 35px;
+    font-family: 'RocknRoll One', sans-serif;;
+} 
+nav a:hover {
+    color: rgb(241, 235, 235);}
+.logo {
+    width: 80px;
+}
+#logolink {padding-top: 5px; 
+    justify-self: center;
+    align-self: center;}
+.icon {padding-top: 10px;
+    width: 80px;}
+header {
+    display: grid;background-color: #a42312fa;
+    grid-template-columns: 150px auto;
+}
+#hero {background-color: #0a1b27;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   
+}
+body {background-image: url('..images/design.png'); background-repeat: repeat;
+background-attachment: fixed; background-size: cover;}
+#hero-box {
+    grid-column: 2/3; margin-top: 50px;
+    grid-row: 1/2;}
+    
+#hero h1 {grid-column: 2/3; grid-row: 2/3; text-align: center; font-family: 'RocknRoll One', sans-serif; color: aliceblue;}
+#hero p {color: aliceblue; font-family: "RocknRoll One", sans-serif; text-align: justify;}
+
+.home-grid {background-color: #0a1b27; font-family: "RocknRoll One", sans-serif; color: #E7C24F;
+        display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;}
+.race-grid {background-color: #0a1b27; font-family: "RocknRoll One", sans-serif; color: #E7C24F;
+            display: grid; grid-template-columns: 1fr 1fr 1fr; 
+            }
+.race-vid {grid-column: 1/2;
+            grid-row: 1/2; margin-left: 100px; margin-top: 100px;
+            }
+.club-race {grid-column: 2/3;
+            grid-row: 1/2; margin-left: 100px; margin-top: 100px; padding: 50px;}
+.race-vid2 {grid-column: 2/3;
+            grid-row: 2/3; margin-right: 100px; margin-top: 100px; 
+            }
+.take-all {grid-column: 1/2;
+                grid-row: 2/3; margin-top: 100px; margin-left: 100px; padding: 50px;}
+.race-post {grid-column: 1/2;
+            grid-row: 3/4; margin-top: 100px; margin-left: 100px;
+            margin-bottom: 100px;}
+.race-post-recent {grid-column: 2/3;
+                grid-row: 3/4; margin-top: 100px; padding: 50px; margin-right: 100px;}
+.product-grid {background-color: #0a1b27; font-family: "RocknRoll One", sans-serif; color: #E7C24F;
+                display: grid; grid-template-columns: 1fr 1fr;
+                }
+.product-review {grid-column: 1/2;
+                    grid-row: 1/2; margin-left: 100px; margin-top: 100px; }
+.bike-tools {grid-column: 2/3;
+                    grid-row: 1/2; margin-left: 50px; margin-top: 50px; text-align: center; padding: 50px;}
+.product-review2 {grid-column: 2/3;
+                    grid-row: 2/3; margin-left: 200px; margin-top: 100px;
+                  }
+.action-cam {grid-column: 1/2;
+                        grid-row: 2/3; margin-top: 100px; margin-left: 100px; padding: 50px;}
+.product-review3 {grid-column: 1/2;
+                    grid-row: 3/4; margin-top: 100px; margin-left: 100px; margin-bottom: 100px;}
+.parody {grid-column: 2/3;
+                        grid-row: 3/4; margin-top: 100px; padding: 50px; margin-right: 300px;}
+
+
+.favorite-vid {grid-column: 1/2;
+                grid-row: 1/2; margin: 100px;}
+.favorite-vid2 {grid-column: 2/3;
+    grid-row: 1/2; margin: 100px;}     
+.favorite-vid3 {grid-column: 1/2;
+    grid-row: 2/3; margin: 100px;}
+.favorite-vid4 {grid-column: 2/3;
+    grid-row: 2/3; margin: 100px;}
+footer {padding: 25px 50px;
+    background-color: #A42212; text-decoration:
+     none; color: #E7C24F; text-align: center; display: flex;
+     justify-content: space-around; font-family: "RocknRoll One", sans-serif;
+     align-items: center;}
+
+
+
+
+footer a {
+    color: #E7C24F;
+    font-size: 1.5em; text-decoration: none;
+    font-family: "RocknRoll One", sans-serif;
+}   
+
+footer a:hover {
+    color: #11100f;}
+footer .social img {padding-top: 15px; border-radius: 10%;}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
