@@ -1,0 +1,25 @@
+@media only screen and (min-width: 32.5em) {
+        h1{
+            font-size: 2.3em;
+        }
+        h2{
+            font-size: 1.5em;
+            text-align: left;
+        }
+        header {
+            display: grid;
+            grid-template-columns: .8fr 2.2fr;
+            align-items: center;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        footer {
+            border-radius: 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .block-header h2{
+        text-align: center;
+        }
+        }
+        
