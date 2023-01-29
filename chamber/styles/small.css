@@ -47,14 +47,28 @@ header {
     justify-content: center;
     flex: 1 1 auto;
 }
-footer {
+footer { display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: aliceblue;
     background-color: #1d3557;
-    text-align: center;
+   
+}
+.image-footer {
+    grid-column: 1/2;
+    margin: auto;
+}
+.message-footer {
+    grid-column: 2/3;
+    margin: auto;
 }
 
-
-
-
+.map {
+    grid-column: 3/4;
+    margin: auto;
+}
+.updated {
+    grid-row: 2/3; margin: auto;
+}
 
 
 
