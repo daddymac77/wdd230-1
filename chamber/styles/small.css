@@ -1,0 +1,64 @@
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+nav {
+   text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: rgb(218, 207, 207);
+    border-top: 1px solid rgba(0,0,0,5);
+}
+nav ul li a:hover {
+    background-color: rgba(230, 224, 224, 0.3);
+
+}
+nav ul li.aktibo a {
+    background-color: rgba(0,0,0,0.2);
+    color: azure;
+}
+
+nav ul { display: none;}
+nav ul.open {display: block;}
+
+header {
+    background-color: #e63946;
+}
+#burgerBtn span:nth-child(1) {display: block;}
+#burgerBtn span:nth-child(2) {display: none;}
+
+#burgerBtn.open span:nth-child(1) {display: none;}
+#burgerBtn.open span:nth-child(2) {display: block;}
+.date {
+    display: flex;
+    background-color: #6a7079;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+footer {
+    background-color: #1d3557;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
