@@ -42,10 +42,10 @@ header {
 #burgerBtn.open span:nth-child(1) {display: none;}
 #burgerBtn.open span:nth-child(2) {display: block;}
 .date {
-    display: flex;
+    margin: auto;
+    display: block;
+    flex: content;
     background-color: #6a7079;
-    justify-content: center;
-    flex: 1 1 auto;
 }
 footer { display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -71,7 +71,11 @@ footer { display: grid;
     display: flex;
 
 }
-
+.date {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
 
 
 

@@ -13,4 +13,10 @@ nav ul li a {
     border: none;
     border-right: 1px solid black;
 }
+img {
+    margin: auto;
+    display: block;
+    max-width: 60%;
+}
+
 }

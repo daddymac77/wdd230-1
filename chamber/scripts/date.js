@@ -3,10 +3,8 @@ const datefield = document.querySelector(".date");
  // for european/family history format with day first.
 
 // derive the current date using a date object
-const now = new Date();
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
-);
+const dDay = new Date();
+document.querySelector('.date').innerHTML = dDay.toDateString();
 // long, medium, short options ... try them
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
